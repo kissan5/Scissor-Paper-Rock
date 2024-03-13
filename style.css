@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  background-color: #0081a7;
+  color: #ffff;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  /* opacity: 0.5%; */
+  cursor: pointer;
+  background-color: #081b31;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.score {
+  text-align: center;
+}
+
+.score-board {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+
+.msg-container {
+  margin-top: 5rem;
+}
+#msg {
+  margin-top: 5rem;
+  background-color: #081b31;
+  color: #ffff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.container {
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #f0f0f0; /* Background color of the container */
+  padding: 20px; /* Add padding to the container */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
